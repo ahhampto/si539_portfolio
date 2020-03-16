@@ -1,0 +1,406 @@
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+header{
+  background-image: url("../attachments/mountain-peak.png");
+  background-attachment: fixed;    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+/*fix*/
+h1{
+	/*font-size: 75px;
+	color: #000;
+	text-align: center;*/
+	display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2{
+	font-size: 31px;
+	color: #000;
+	margin-top: 15%;
+	margin-bottom: 15%; 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h3{
+	font-size: 20px;
+	color: #000;	
+	margin-top: 0;
+	margin-bottom: 0; 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.uxp-title, #contact{
+	margin-top: 15%;
+	margin-bottom: 15%; 
+	margin-left: 20%;
+	margin-right: 10%;
+	text-align: left;
+}
+
+.uxp-list{
+	margin-top: 0;
+	margin-bottom: 0; 
+	margin-left: 20%;
+	margin-right: 10%;
+	text-align: left;
+}
+
+#currentgoal{
+	margin-top: 15%;
+	margin-bottom: 0; 
+	margin-left: 20%;
+	margin-right: 10%;
+	text-align: center;
+}
+
+.indexintro {
+	font-weight: bold;
+	margin-top: 15%;
+	margin-bottom: 15%; 
+	margin-left: 20%;
+	margin-right: 10%;
+	text-align: left;
+}
+
+.mid {
+	color: #8ABAA8;
+}
+
+.list-mid{
+	text-decoration: underline;
+}
+
+
+h4{
+	font-size: 16px;
+	color: #000;
+	margin-top: 15%;
+	margin-bottom: 15%; 
+	margin-left: 20%;
+	margin-right: 10%;
+}
+
+/*fix*/
+/*
+.flipcard{
+	background-color: transparent;
+	width: 300px;
+	height: 200px;
+	border: 1px solid #f1f1f1;
+	perspective: 1000px;
+}
+
+.flipcard-inner{
+	position: relative;
+  	width: 100%;
+  	height: 100%;
+  	text-align: center;
+  	transition: transform 0.8s;
+  	transform-style: preserve-3d;
+}
+
+.flipcard-front{
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  /*backface-visibility: hidden;
+}
+*/
+/*end fix*/
+
+.projectitle{
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0; 
+	font-weight: bold;
+}
+
+.projectlist{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p{
+	font-size: 16px;
+	color: #000;
+	margin-top: 15%;
+	margin-bottom: 15%; 
+	margin-left: 20%;
+	margin-right: 10%;
+	line-height: 1.5;
+}
+
+li{
+	line-height: 1.5;
+}
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	margin-top: 7%;
+}
+
+.nav a{
+	color: #000;
+	text-decoration: none;
+	padding-right: 4.75%;
+	padding-left: 4.75%;
+}
+
+/* help - keep current page highlighted */
+.nav a:hover, #current{
+	text-decoration: underline;
+}
+
+hr{
+	display: block;
+	height: 2px;
+	border: 0px;
+	border-top: 2px solid #8ABAA8;
+	margin-top: 10%;
+	margin-bottom: 10%; 
+	margin-left: 20%;
+	margin-right: 10%;
+}
+
+.resume{
+	display: block;
+	height: 70%;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#headshot{
+	height: 50%;
+	width: 50%;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 10px solid #8ABAA8;
+
+	display: block;
+	margin-left: 25%;
+	margin-right: 15%;
+}
+
+.about-img{
+	height: 30%;
+	width: 30%;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 10px solid #8ABAA8;
+
+	display: block;
+	margin-left: 35%;
+	margin-right: 15%;
+}
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+}
+
+.skip a:focus{
+  top: 0;
+}
+
+.uxp-gallery{
+	display: flex;
+	/*justify-content: space-between;*/
+	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5px;
+}
+
+.uxp-gallery > img{
+	height: 350px;
+	grid-column: 1 / span 6;
+	grid-row: 1 / span 2;
+	position: center;
+	padding: 5px;
+}
+
+#storymap {
+	height: 80%;
+	width: 80%;
+}
+
+.contact-gallery{
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	grid-column: 1 / span 6;
+	grid-row: 1 / span 2;
+}
+
+.form{
+	display: grid;
+	margin-top: 0;
+	margin-bottom: 0; 
+	margin-left: 20%;
+	margin-right: 5%;
+	/*grid-template-columns: auto 1fr;
+	grid-row-gap: 5px;*/
+}
+
+label{
+	margin-left: 21%; 
+}
+
+input{
+	margin-left: 21%;
+	padding-right: 45%;
+}
+
+input[id=message]{
+	padding-bottom: 15%;
+}
+
+footer{
+	background-color: #8ABAA8;
+	font-size: 12px;
+	text-align: center;
+	grid-column: 1 / -1;
+	grid-row: 7 / auto;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	padding: 3%;
+}
+
+
+@media all and (min-width: 500px){
+
+	.project-title{
+		margin-top: 0;
+		margin-bottom: 0; 
+		font-weight: bold;
+	}
+
+	.projectlist{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+
+	#currentgoal{
+		margin-top: 5%;
+	}
+
+	footer{
+		padding: 2%;
+	}
+}
+
+
+@media all and (min-width: 800px){
+
+	h2{
+		margin-top: 5%;
+		margin-bottom: 5%; 
+	}
+
+	h3{
+		margin-top: 5%;
+		margin-bottom: 5%; 
+		margin-left: 26%;
+		margin-right: 15%;
+	}
+
+	.indexintro{
+		margin-top: 10%;
+		margin-bottom: 5%; 
+		margin-left: 26%;
+		margin-right: 25%;
+	}
+
+	.uxp-title{
+		margin-top: 10%;
+		margin-bottom: 5%; 
+		margin-left: 26%;
+		margin-right: 25%;
+	}
+
+	.uxp-list{
+		margin-left: 26%;
+		margin-right: 25%;
+	}
+
+	h4{
+		margin-top: 10%;
+		margin-bottom: 0; 
+		margin-left: 26%;
+		margin-right: 15%;
+	}
+
+	p{
+		margin-top: 10%;
+		margin-bottom: 5%; 
+		margin-left: 26%;
+		margin-right: 25%;
+	}
+
+	#currentgoal{
+		margin-left: 26%;
+		margin-right: 25%;
+	}
+	
+	.resume{
+		height: 40%;
+		width: 40%;
+	}
+
+}
+
+
+@media screen and (prefers-reduced-motion: reduce){
+  #logo {
+    -webkit-animation-name: none;
+    animation-name: none;
+    -webkit-animation-duration: 0s;
+    animation-duration: 0s;
+    -webkit-animation-iteration-count: 0;
+    animation-iteration-count: 0;
+  }
+}
