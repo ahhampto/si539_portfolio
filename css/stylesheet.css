@@ -392,6 +392,11 @@ hr{
 
 i{
 	padding-left: 25px;
+	color: #000;
+}
+
+i:hover{
+	color: #A0D9C4;
 }
 
 .form{
