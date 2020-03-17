@@ -201,6 +201,18 @@ h4{
     border: 1px solid #8ABAA8;
 }
 
+.flip-card-front-alt {
+    background-color: #fff;
+    color: #000;
+}
+
+.flip-card-back-alt {
+    background-color: #8ABAA8;
+    color: #000;
+    transform: rotateY(180deg);
+    border: 1px solid #8ABAA8;
+}
+
 .projectitle-card-front{
 	font-size: 20px;
 	text-align: center;
@@ -240,7 +252,6 @@ h4{
 	padding-top: 30px;
 	padding-bottom: 10px;
 }
-
 
 .projectitle{
 	display: inline;
