@@ -182,7 +182,7 @@ h4{
     transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front, .flip-card-back, .flip-card-front-alt, .flip-card-back-alt {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -204,13 +204,13 @@ h4{
 .flip-card-front-alt {
     background-color: #fff;
     color: #000;
+    border: 1px solid #8ABAA8;
 }
 
 .flip-card-back-alt {
     background-color: #8ABAA8;
     color: #000;
     transform: rotateY(180deg);
-    border: 1px solid #8ABAA8;
 }
 
 .projectitle-card-front{
