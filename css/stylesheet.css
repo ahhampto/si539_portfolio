@@ -114,7 +114,7 @@ h3{
 	text-align: left;
 }
 
-#currentgoal{
+.currentgoal{
 	margin-top: 15%;
 	margin-bottom: 0; 
 	margin-left: 20%;
@@ -543,7 +543,7 @@ footer{
 		margin-right: 7%;
 	}
 
-	#currentgoal{
+	.currentgoal{
 		margin-top: 5%;
 		margin-left: 26%;
 		margin-right: 25%;
