@@ -190,7 +190,7 @@ h4{
 }
 
 .flip-card-front {
-    background-color: #8ABAA8;
+    background-color: #A0D9C4;
     color: #000;
 }
 
@@ -198,17 +198,17 @@ h4{
     background-color: #fff;
     color: #000;
     transform: rotateY(180deg);
-    border: 1px solid #8ABAA8;
+    border: 1px solid #A0D9C4;
 }
 
 .flip-card-front-alt {
     background-color: #fff;
     color: #000;
-    border: 1px solid #8ABAA8;
+    border: 1px solid #A0D9C4;
 }
 
 .flip-card-back-alt {
-    background-color: #8ABAA8;
+    background-color: #A0D9C4;
     color: #000;
     transform: rotateY(180deg);
 }
@@ -305,7 +305,7 @@ hr{
 	display: block;
 	height: 2px;
 	border: 0px;
-	border-top: 2px solid #8ABAA8;
+	border-top: 2px solid #A0D9C4;
 	margin-top: 10%;
 	margin-bottom: 10%; 
 	margin-left: 20%;
@@ -325,7 +325,7 @@ hr{
 	width: 50%;
 	object-fit: cover;
 	border-radius: 50%;
-	border: 10px solid #8ABAA8;
+	border: 10px solid #A0D9C4;
 
 	display: block;
 	margin-left: 25%;
@@ -337,7 +337,7 @@ hr{
 	width: 30%;
 	object-fit: cover;
 	border-radius: 50%;
-	border: 10px solid #8ABAA8;
+	border: 10px solid #A0D9C4;
 
 	display: block;
 	margin-left: 35%;
@@ -419,7 +419,7 @@ input[id=message]{
 
 footer{
 	display: grid;
-	background-color: #8ABAA8;
+	background-color: #A0D9C4;
 	font-size: 12px;
 	text-align: center;
 	grid-column: 1 / -1;
