@@ -584,17 +584,18 @@ footer{
 }
 
 @media screen and (prefers-reduced-motion: reduce){
-  .rotate-words, rotate-words span {
-	animation: none;
-	-ms-animation: none;
-	-webkit-animation: none;
+	.rotate-words, .rotate-words span {
+		animation: none;
+		-ms-animation: none;
+		-webkit-animation: none;
 
-	animation-delay: 0s;
-	-ms-animation-delay: 0s;
-	-webkit-animation-delay: 0s;
+		animation-delay: 0s;
+		-ms-animation-delay: 0s;
+		-webkit-animation-delay: 0s;
 
-	animation-duration: none;
-	-ms-animation-iteration-count: 0;
-	-webkit-animation-iteration-count: 0;
-  }
+		animation-duration: none;
+		-ms-animation-iteration-count: 0;
+		-webkit-animation-iteration-count: 0;
+	  }
+
 }
